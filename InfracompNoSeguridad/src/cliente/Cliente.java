@@ -48,7 +48,7 @@ public class Cliente extends Thread
 	/**
 	 * URL de la maquina a la que se va a conectar.
 	 */
-	public static final String SERVIDOR = "localhost";
+	public static final String SERVIDOR = "10.113.246.101";
 
 	/**
 	 * Pide parametros de consola e imprime sobre la consola.
@@ -127,8 +127,6 @@ public class Cliente extends Thread
 			String credentials = "usuarioic,ic201320";
 			escritor.println(credentials);
 			status = lector.readLine();
-
-
 
 			//SE ESPERA A QUE EL USUARIO INSERTE EL ID
 			String idP = "45856951";
